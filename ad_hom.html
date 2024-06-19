@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admin Home page</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <header>
+    
+        
+       <nav>
+        <a class="navbar-brand"   href="home.html"> <img src="Screenshot 2024-03-27 081402.png" class="logo"></a>
+         <a href="ad_dil.php" class="button">STUDENT DETAILS</a>
+         <a href="ad_replace.php" class="button">ROOM ALLOCATION </a>
+        <a href="ad_info.php" class="button">MASSEGE</a>
+         <a href="logout.php" class="button">LOGOUT</a>
+      
+    </nav>
+</header>
+<div class="slider">
+
+    <div class="slide active"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll(".slide");
+    let currentSlide = 0;
+    
+
+    function nextSlide() {
+        slides[currentSlide].classList.remove("active");
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add("active");
+    }
+
+    setInterval(nextSlide, 8000);
+});
+
+</script>
+</body>
+</html>

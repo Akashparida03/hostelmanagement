@@ -1,0 +1,43 @@
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.3rem;
+    z-index: 2;
+  }
+  nav {
+            text-align: right;
+            padding: 0.2rem;
+            overflow: hidden;
+        }
+
+        .button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+           padding: 0.2REM;
+           margin-left: 3px;
+            cursor: pointer;
+            border: none;
+          }
+          .button:hover {
+            background-color: #555;
+          }
+        .logo {
+            padding: 0%;
+            width: 140px;
+            height: 22px;
+        }
+        .navbar-brand {
+      float: left;
+      top: 1%;
+      padding: 0;
+        
+      &:hover {
+        transform: scale(1.1); 
+        background-color:  transparent;
+    } 
+}

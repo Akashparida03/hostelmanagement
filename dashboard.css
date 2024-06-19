@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Screenshot 2024-03-28 115145.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 20px;
+    margin: 5px;
+    background-color: transparent;
+  }
+  
+  .left-column {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-card {
+    background-color: rgba(0, 0, 0, 0.266);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 85%;
+    margin: 5px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color:  white;
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .right-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  
+  .box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .box p{
+  /* border: 1px solid black; */
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 320px;
+  height:  auto;
+  border: 1px solid transparent;
+  margin: 20px;
+  margin-left: 12px;
+  }
+  h1, h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+ 

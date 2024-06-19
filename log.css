@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  div{
+    /* Position the form at the exact center of the page */
+    position: absolute;
+     top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* Increase the width to 150% of the original width */
+    width: 500px;
+    height: 410px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 12px;
+  }
+  form{
+    padding: 5px;
+   
+
+  }
+  label {
+    text-align: left;
+    left: 20;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  padding-left: 15px;
+  }
+  input[type="text"], input[type="password"] {
+    color: black;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 3px;
+    border-radius: 8px;
+   
+  }
+  input[type="submit"] {
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+  border-radius: 8px;
+  
+  &:hover {
+      background-color: rgba(251, 245, 245, 0.852);
+  }
+  }
+  #link {
+      margin: 4px;
+      color: white;
+      transition: transform 0.25s;
+    &:hover {
+      background-color: rgba(151, 126, 126, 0.3);
+  }
+}
+p{
+  text-align: center;
+  font-size: 12px;
+  margin: 3px;
+}

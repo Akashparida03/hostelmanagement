@@ -1,0 +1,15 @@
+body {
+    /* Add the background image */
+    background-image: url('Screenshot 2024-03-28 115145.png');
+    /* Make the image cover the whole body */
+    background-size: cover;
+    /* Center the image */
+    background-position: center;
+    /* Add extra styles for better appearance */
+    font-family: Arial, sans-serif;
+    color: white;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
